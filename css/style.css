@@ -1846,13 +1846,15 @@ body {
 .sub-intro__item._watcher-view:nth-child(3) {
   transition: all 0.6s ease 0.45s;
 }
-.sub-intro__image {
+.sub-intro__image,
+.sub-intro picture {
   border-radius: 5px;
   width: 100%;
   object-fit: cover;
 }
 @media (min-width: 48em) {
-  .sub-intro__image {
+  .sub-intro__image,
+.sub-intro picture {
     position: absolute;
     height: 100%;
     top: 0;
@@ -1861,7 +1863,8 @@ body {
   }
 }
 @media (max-width: 48em) {
-  .sub-intro__image {
+  .sub-intro__image,
+.sub-intro picture {
     min-height: 280px;
     margin-bottom: 0.625rem;
   }
