@@ -1822,7 +1822,7 @@ body {
 }
 @media (max-width: 48em) {
   .sub-intro__items {
-    display: block;
+    display: block !important;
   }
 }
 @media (min-width: 48em) {
